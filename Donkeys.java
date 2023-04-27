@@ -1,6 +1,8 @@
-public class Cats extends Pets{
+public class Donkeys extends Pack_animal{
     String personal_name;
-    public Cats(String id, String birth, String animalName, String comand[], String personal_name) {
+    String height;
+    String weight;
+    public Donkeys(String id, String birth, String animalName, String comand[], String personal_name) {
         super(id, birth, animalName, comand);
         this.personal_name = personal_name;
     }
